@@ -21,7 +21,7 @@ set -e
 
 case "$1" in
     purge)
-        # reload apache
+        # reconfigure apache after config file is removed
         if which invoke-rc.d > /dev/null; then
             invoke-rc.d apache2 reload
         else
