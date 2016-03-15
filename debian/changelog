@@ -3,9 +3,3 @@ perfsonar-traceroute-viewer (3.5.1-1~bpo70+1) perfsonar-wheezy-release; urgency=
   * Backport to Wheezy.
 
  -- Antoine Delvaux <adelvaux@man.poznan.pl>  Fri, 04 Mar 2016 11:20:55 +0100
-
-perfsonar-traceroute-viewer (3.5.1-1) perfsonar-jessie-release; urgency=low
-
-  * Initial release.
-
- -- Valentin Vidic <Valentin.Vidic@CARNet.hr>  Fri, 04 Mar 2016 11:18:57 +0100
