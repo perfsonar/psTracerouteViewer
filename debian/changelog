@@ -1,19 +1,26 @@
-perfsonar-traceroute-viewer (3.5.1.1w-2~bpo70+1) perfsonar-wheezy-staging; urgency=low
+perfsonar-traceroute-viewer (4.0~1.rc3-1~bpo70+1) perfsonar-wheezy-staging; urgency=low
 
-  * Removed apache conf patch that is merged upstream.
+  * Backport to Wheezy.
 
- -- Antoine Delvaux <adelvaux@man.poznan.pl>  Fri, 04 Nov 2016 10:08:31 +0100
+ -- Antoine Delvaux <antoine.delvaux@man.poznan.pl>  Fri, 24 Feb 2017 15:49:10 +0100
 
-perfsonar-traceroute-viewer (3.5.1-2~bpo70+1) perfsonar-wheezy-release; urgency=low
+perfsonar-traceroute-viewer (4.0~1.rc3-1) perfsonar-jessie-staging; urgency=low
+
+  * New upstream version.
+  * Removed apache configuration patch that is merged upstream.
+
+ -- Antoine Delvaux <antoine.delvaux@man.poznan.pl>  Fri, 24 Feb 2017 15:43:33 +0100
+
+perfsonar-traceroute-viewer (3.5.1-2) perfsonar-jessie-release; urgency=low
 
   * Fix prerm syntax
   * Update license details
   * Update package description
 
- -- Valentin Vidic <Valentin.Vidic@CARNet.hr>  Tue, 15 Mar 2016 10:10:16 +0100
+ -- Valentin Vidic <Valentin.Vidic@CARNet.hr>  Tue, 15 Mar 2016 10:11:53 +0100
 
-perfsonar-traceroute-viewer (3.5.1-1~bpo70+1) perfsonar-wheezy-release; urgency=low
+perfsonar-traceroute-viewer (3.5.1-1) perfsonar-jessie-release; urgency=low
 
-  * Backport to Wheezy.
+  * Initial release.
 
- -- Antoine Delvaux <adelvaux@man.poznan.pl>  Fri, 04 Mar 2016 11:20:55 +0100
+ -- Valentin Vidic <Valentin.Vidic@CARNet.hr>  Fri, 04 Mar 2016 11:18:57 +0100
